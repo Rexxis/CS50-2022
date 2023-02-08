@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./asset/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon-16x16.png">
+        <link rel="manifest" href="./asset/site.webmanifest">
+        <title>David Harendza</title>
+    </head>
+    <body class="d-flex h-100 text-center bg-dark text-white bg-vector">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <div>
+                    <h3 class="float-md-start mb-0">DavidHRZ</h3>
+                    <nav class="nav nav-masthead justify-content-center float-md-end">
+                        <a href="index.html" class="nav-link fw-bold py-1 active">Home</a>
+                        <a href="contacts.html" class="nav-link fw-bold py-1">Contacts</a>
+                        <a href="#" class="nav-link fw-bold py-1">PomoTimer</a>
+                        <a href="projects.html" class="nav-link fw-bold py-1">Projects</a>
+                    </nav>
+                </div>
+            </header>
+            <main class="px-3">
+                <h1 class="font-xxl">Pomodoro Timer</h1>
+                <p>Feel free to use this timer to improve your productivity!</p>
+                <div id="timer" class="timer font-xxl">00.00</div>
+                <div class="control-container mb-5">
+                    <div class="btn btn-success left-column" onclick="starttimer(25)">
+                        Start 25 mins
+                    </div>
+                    <div class="btn btn-danger right-column" onclick="starttimer(5)">
+                        5 mins break
+                    </div>
+                </div>
+            </main>
+            <footer class="mt-auto">
+                <p>Made in December 2022<br><a href="https://www.vecteezy.com/free-vector/website-background">Website Background Vectors by Vecteezy</a></p>
+            </footer>
+        </div>
+        <script src="timer.js"></script>
+    </body>
+</html>

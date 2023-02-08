@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <div class="query">
+        <p>Name: {{ result["name"] }} ({{ result["symbol"] }})</p>
+        <p>Price: {{ price }} per share</p>
+    </div>
+{% endblock %}

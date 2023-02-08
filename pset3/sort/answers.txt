@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: it solved sorted text the fastest, because of it's algorithm it checks if there is no swap then it is already sorted and finish executing.
+
+sort2 uses: merge sort
+
+How do you know?: it is the fastest to solve between the others, especially on big data random/reversed 50000.
+
+sort3 uses: selection sort
+
+How do you know?: it is the slowest one, because it algorithm must go through the whole n amount of data even though it is already sorted

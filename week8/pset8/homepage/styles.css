@@ -1,0 +1,91 @@
+.bg-vector {
+    background-image: url('./asset/blue_vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-colorful {
+    background-image: url('./asset/colorful_vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px;
+    background-color: rgb(0,0,0,.85)
+}
+
+.welcome {
+    position: relative;
+    top: -60px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text-box {
+   display: inline-block;
+}
+
+.text-black {
+    color: black;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.spacing {
+    margin: 0 auto 20px auto
+}
+
+.font-xl {
+    font-size: 2.5rem;
+}
+
+.font-xxl {
+    font-size: 4.5rem;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.control-container {
+    display: inline-flex;
+    width: 100%;
+    max-width: 250px;
+    justify-content: space-between;
+}
+
+.timer {
+    margin: 10px auto;
+    font-family: 'Concert One', cursive;
+    font-size: 8rem;
+}
+
+.separator {
+    height: 2rem;
+}
+
+a {
+    color: white;
+}
